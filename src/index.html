@@ -7,6 +7,8 @@
 
     <script src="index.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/annyang/2.6.1/annyang.min.js"></script>
+    <script src="https://unpkg.com/popper.js"></script>
+    <script src="https://unpkg.com/tooltip.js"></script>
     <script type="text/javascript">
         window.onload = init;
     </script>
@@ -15,11 +17,10 @@
 <main>
     <div class="surround">
         <div class="block" id="div1"><h1>Left</h1></div>
-
         <div class="block" id="div2"><h1>Middle</h1></div>
-
         <div class="block" id="div3"><h1>Right</h1></div>
     </div>
+    <button onclick="ToggleToolTips()">show toolstips</button>
     <div id="rest"></div>
 </main>
 
